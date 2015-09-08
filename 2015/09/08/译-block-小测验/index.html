@@ -3,33 +3,27 @@
 <head>
   <meta charset="utf-8">
   
-  <title>MicroCai</title>
+  <title>[译]_block_小测验 | MicroCai</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="[译] Block 小测验Tags：Archives iOS 翻译
+  <meta name="description" content="本文来源于 ParseBlog 的其中一篇博文 《Objective-C Blocks Quiz》
 
-本文来源于 ParseBlog 的其中一篇博文 《Objective-C Blocks Quiz》
-如果您觉得我的博客对您有帮助，请通过关注我的新浪微博  MicroCai 支持我，谢谢！
-
-你想知道Objective-C中blocks是怎么工作的吗？那么让我们通过几个测试题来了解下吧。本文所有的例子都经过以下版本的LLVM检验">
+你想知道Objective-C中blocks是怎么工作的吗？那么让我们通过几个测试题来了解下吧。本文所有的例子都经过以下版本的LLVM检验过：
+123Apple clang version 4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn">
 <meta property="og:type" content="article">
-<meta property="og:title" content="MicroCai">
-<meta property="og:url" content="http://MicroLearner.github.io/2015/09/08/[译]_block_小测验/index.html">
+<meta property="og:title" content="[译]_block_小测验">
+<meta property="og:url" content="http://MicroLearner.github.io/2015/09/08/译-block-小测验/index.html">
 <meta property="og:site_name" content="MicroCai">
-<meta property="og:description" content="[译] Block 小测验Tags：Archives iOS 翻译
+<meta property="og:description" content="本文来源于 ParseBlog 的其中一篇博文 《Objective-C Blocks Quiz》
 
-本文来源于 ParseBlog 的其中一篇博文 《Objective-C Blocks Quiz》
-如果您觉得我的博客对您有帮助，请通过关注我的新浪微博  MicroCai 支持我，谢谢！
-
-你想知道Objective-C中blocks是怎么工作的吗？那么让我们通过几个测试题来了解下吧。本文所有的例子都经过以下版本的LLVM检验">
-<meta property="og:updated_time" content="2015-09-08T14:46:58.000Z">
+你想知道Objective-C中blocks是怎么工作的吗？那么让我们通过几个测试题来了解下吧。本文所有的例子都经过以下版本的LLVM检验过：
+123Apple clang version 4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn">
+<meta property="og:updated_time" content="2015-09-08T15:06:08.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="MicroCai">
-<meta name="twitter:description" content="[译] Block 小测验Tags：Archives iOS 翻译
+<meta name="twitter:title" content="[译]_block_小测验">
+<meta name="twitter:description" content="本文来源于 ParseBlog 的其中一篇博文 《Objective-C Blocks Quiz》
 
-本文来源于 ParseBlog 的其中一篇博文 《Objective-C Blocks Quiz》
-如果您觉得我的博客对您有帮助，请通过关注我的新浪微博  MicroCai 支持我，谢谢！
-
-你想知道Objective-C中blocks是怎么工作的吗？那么让我们通过几个测试题来了解下吧。本文所有的例子都经过以下版本的LLVM检验">
+你想知道Objective-C中blocks是怎么工作的吗？那么让我们通过几个测试题来了解下吧。本文所有的例子都经过以下版本的LLVM检验过：
+123Apple clang version 4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn">
   
     <link rel="alternative" href="http://microlearner.github.io/atom.xml" title="MicroCai" type="application/atom+xml">
   
@@ -185,11 +179,11 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-[译]_block_小测验" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-译-block-小测验" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/09/08/[译]_block_小测验/" class="article-date">
-  	<time datetime="2015-09-08T14:47:21.000Z" itemprop="datePublished">2015-09-08</time>
+      <a href="/2015/09/08/译-block-小测验/" class="article-date">
+  	<time datetime="2015-09-08T15:03:55.000Z" itemprop="datePublished">2015-09-08</time>
 </a>
     </div>
   
@@ -198,12 +192,27 @@
       <input type="hidden" class="isFancy" />
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      [译]_block_小测验
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="[译]_Block_小测验">[译] Block 小测验</h1><p>Tags：Archives iOS 翻译</p>
-<hr>
-<p><em>本文来源于 <a href="http://blog.parse.com/" target="_blank" rel="external">ParseBlog</a> 的其中一篇博文 <a href="http://blog.parse.com/2013/02/05/objective-c-blocks-quiz/" target="_blank" rel="external">《Objective-C Blocks Quiz》</a></em></p>
-<p><em>如果您觉得我的博客对您有帮助，请通过关注我的新浪微博 <i class="icon-weibo"></i> <a href="http://weibo.com/1736763114/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo" target="_blank" rel="external">MicroCai</a> 支持我，谢谢！</em></p>
+        <p><em>本文来源于 <a href="http://blog.parse.com/" target="_blank" rel="external">ParseBlog</a> 的其中一篇博文 <a href="http://blog.parse.com/2013/02/05/objective-c-blocks-quiz/" target="_blank" rel="external">《Objective-C Blocks Quiz》</a></em></p>
 <hr>
 <p>你想知道Objective-C中blocks是怎么工作的吗？那么让我们通过几个测试题来了解下吧。<br>本文所有的例子都经过以下版本的LLVM检验过：</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Apple clang version <span class="number">4.1</span> (tags/Apple/clang-<span class="number">421.11</span><span class="number">.66</span>) (based on LLVM <span class="number">3.1</span>svn)</span><br><span class="line">Target: x86_64-apple-darwin11<span class="number">.4</span><span class="number">.2</span></span><br><span class="line">Thread model: posix</span><br></pre></td></tr></table></figure>
@@ -314,7 +323,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="[译]_block_小测验" data-title="" data-url="http://MicroLearner.github.io/2015/09/08/[译]_block_小测验/"></div>
+	<div class="ds-thread" data-thread-key="译-block-小测验" data-title="[译]_block_小测验" data-url="http://MicroLearner.github.io/2015/09/08/译-block-小测验/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
